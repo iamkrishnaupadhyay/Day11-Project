@@ -50,7 +50,7 @@ const app = http.createServer(async (req, res) => {
                 `<div>
                 <h2>${product.title}</h2>
                 <img src="${product.thumbnail}" height='300'>
-                <h3>${product.price}</h3>
+                <h3>Rs. ${product.price}</h3>
                 <h4>${product.description}</h4>
                 </div>`)
             res.end(text);
